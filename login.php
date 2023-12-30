@@ -2,6 +2,7 @@
 // This is to include the database connection file 
 session_start();
 require_once '../machine-test1/connection.php';
+// show message
 $message = '';
 
 if (isset($_POST['login'])) {
