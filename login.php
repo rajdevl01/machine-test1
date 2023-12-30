@@ -1,7 +1,7 @@
 <?php
 // This is to include the database connection file 
 session_start();
-require_once 'master/connection.php';
+require_once '../machine-test1/connection.php';
 $message = '';
 
 if (isset($_POST['login'])) {
@@ -39,7 +39,7 @@ if (isset($_POST['login'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Student Register</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../machine-test1/style.css">
 </head>
 
 <body>
@@ -96,6 +96,5 @@ if (isset($_POST['login'])) {
 </body>
 
 </html>
-
 
 
